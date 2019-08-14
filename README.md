@@ -2,8 +2,11 @@
 A Project that every beginner must do by himself/herself to get started with Python Web-development
 
 ### Flow Diagram 
-![Flow Diagram](https://github.com/Samrat002/ImageUploader/flow_diagram.png) 
-###Project Description
+
+![Flow Diagram](https://github.com/Samrat002/ImageUploader/blob/master/flow_diagram.png) 
+
+
+### Project Description
 It contains an User Interface which contains an Image Uploader Widgets. The widget takes 3 parameters:-
     
     1) Image Blob Object
@@ -32,16 +35,14 @@ and uploaded to S3 in sync .
 All the other 3 image Quality type is initiated in Async using celery Task using workers. 
 This returns a response of success and the cloud url so that it can be rendered. 
 
-
-
-###MOTIVE
+### MOTIVE
     a) This is a simple mini project that i carried out at the beginning when i was trying to get deep hands on with the Django
        Framework.
        
     b) This project is completely build on django which uploads the image of specific size processes 
        it and creates 4 different images via Processing through PIL .
 
-###PERKS FROM PROJECT 
+### PERKS FROM PROJECT 
     a) I learned how to work with python and Django Framework
     b) I understand how to work with ***Celery***,  ***Redis Cache***, ***S3*** and ***Consistant Hashing***.
     
