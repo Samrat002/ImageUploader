@@ -46,3 +46,14 @@ This returns a response of success and the cloud url so that it can be rendered.
     a) I learned how to work with python and Django Framework
     b) I understand how to work with ***Celery***,  ***Redis Cache***, ***S3*** and ***Consistant Hashing***.
     
+### Installing and Running Project in Local
+    * clone the repository in your system 
+        `git clone git@github.com:Samrat002/ImageUploader.git`
+    * Make your AWS free Account and pass key from the non added settings.py file of the project\
+    * Use `python manage.py runserver`
+~~Boom On !!! ~~~
+
+### Scope of Enhancement
+    1) Dockerization
+    2) Proper credential service requied / Which can be built to store the Keys and Password
+    3) This imageUploader can be integrated with the user management for leverage the scope.
