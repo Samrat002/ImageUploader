@@ -43,14 +43,18 @@ This returns a response of success and the cloud url so that it can be rendered.
        it and creates 4 different images via Processing through PIL .
 
 ### PERKS FROM PROJECT 
-    a) I learned how to work with python and Django Framework
-    b) I understand how to work with ***Celery***,  ***Redis Cache***, ***S3*** and ***Consistant Hashing***.
+    a) Simple hand on tool to get started with python and Django Framework
+    b) Small Hands on work with  ***Celery***,  ***Redis Cache***, ***S3*** and ***Consistant Hashing***.
     
 ### Installing and Running Project in Local
-    * clone the repository in your system 
-        `git clone git@github.com:Samrat002/ImageUploader.git`
-    * Make your AWS free Account and pass key from the non added settings.py file of the project\
-    * Use `python manage.py runserver`
+   1) clone the repository in your system 
+    
+        ```git clone git@github.com:Samrat002/ImageUploader.git```
+        
+   2) Make your AWS free Account and add pass key in the non added settings.py file of the project\
+   3) Go to the shell and run
+      `python manage.py runserver`
+      
 ~~Boom On !!! ~~~
 
 ### Scope of Enhancement
